@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":" nodemon index.js"
   },
   "author": "Santosh Saroj",
   "license": "ISC",
@@ -11,6 +12,7 @@
   "dependencies": {
     "express": "^4.19.2",
     "js": "^0.1.0",
-    "node": "^22.3.0"
+    "node": "^22.3.0",
+    "nodemon": "^3.1.3"
   }
 }
