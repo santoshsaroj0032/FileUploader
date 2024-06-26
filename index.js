@@ -15,6 +15,6 @@ app.use(express.json());
 app.get("/", (req, res) => {
     return res.render("index.ejs");
 });
-
+ 
 // Start the server
 app.listen(PORT, () => console.log(`Server started at PORT: ${PORT}`));
