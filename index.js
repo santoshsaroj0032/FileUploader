@@ -9,7 +9,7 @@ app.set("view engine", "ejs");
 app.set("views", path.resolve(__dirname, "views"));
 
 // Middleware to parse JSON requests
-app.use(express.json());
+app.use(express.json()); 
 
 // Define the homepage route 
 app.get("/", (req, res) => {
